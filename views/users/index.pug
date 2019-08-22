@@ -1,0 +1,12 @@
+.container
+  ul.nav
+    li.nav-item
+      a.nav-link.active(href='/user' ) home
+    li.nav-item
+      a.nav-link(href='#') user
+    li.nav-item
+      a.nav-link(href='/product') list product
+h1 search 
+form(action='user/search', method='GET')
+  input(type='text')
+  button.btn.btn-outline-success(type='button') search
